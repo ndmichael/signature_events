@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-expand-lg{
+    background: #dee2e6;
+}
+
+.navbar-expand-lg .nav-item{
+    padding: 10px 20px;
+}
+
+.navbar-expand-lg .nav-item .nav-link{
+    color: black;
+}
+
+.navbar-expand-lg .nav-item .btn{
+    color: white;
+}
+
+.navbar-expand-lg .nav-item .btn:hover{
+    color: whitesmoke !important;
+}
+
+.navbar-expand-lg .nav-item .nav-link:hover{
+    color:blueviolet;
+}
+
+.btn-primary{
+    background: #6E2F75;
+    color: whitesmoke;
+    border-color: #803789;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.btn-primary:hover{
+    background: #a743b3;
+    color: white;
+    border-color: #803789;
+}
+
+
+
+.images{
+    display: relative;
+}
+
+img{
+    object-fit: cover;
+}
+
+.img1{
+    display: block;
+    position: relative;
+    top: 150px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+.img2{
+    display: block;
+    z-index: -10;
+    position: absolute;
+    right: 5rem;
+    top: -5px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.hero-writeup{
+    color: #000;
+    font-weight: 800 !important;
+    margin-top: 7rem;
+}
+
+.writeup{
+    background: purple;
+    color: white;
+    padding: 6rem;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-3rem;
+}
+
+#props, #testimony, #contact{
+    padding: 6rem 0;
+    margin:3rem 0;
+}
+
+#category{
+    padding: 6rem 0 0 0;
+    margin: 0;
+}
+
+#about{
+     transform: translateY(-140px);
+     position: relative; 
+     z-index: 4;
+     background: #fff;
+     margin-bottom: -140px;
+     padding: 6rem 0;
+}
+
+.abt-img{
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.about-us{
+    padding: 7rem;
+    font-size: 1rem;
+    background: #a60ccc;
+    border-radius: 50% 0 0 50%;
+}
+
+.about-us p{
+    position: relative;
+    color: rgb(241, 241, 241);
+    z-index: 15;
+}
+
+.cate-props{
+    height: 200px;
+    width: 100%;
+}
+
+
+#achievements{
+    padding: 12rem 20px;
+    background: linear-gradient(120deg, rgba(08, 08, 08, 0.4), rgb(08, 08, 08)), url('../images/london-backdrop.png');
+    background-position: center;
+    background-repeat: false;
+    color: white;
+}
+
+#achievements .display-4{
+    /* color: #6E2F75; */
+    color: white;
+    text-shadow: 5px 0 0px #6E2F75;
+    font-weight: 700;
+}
+
+#props .props{
+    text-align: center;
+}
+
+#props .props img{
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 0 12px rgba(08, 08, 08, 0.4);
+}
+
+#props .props-text{
+    padding-left: 10px;
+    font-size:1.1rem;
+}
+
+#props .props-text p{
+    padding-left: 10px;
+    color: rgb(72, 72, 72); 
+}
+
+#props .props-text i{
+    color: #6E2F75;
+}
+
+#testimony img{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+}
+
+#testimony .client-details{
+    padding-top: 15px;
+}
+
+#footer1{
+    padding: 2rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0;
+    background: rgb(54, 54, 79);
+    color: white;
+}
+
+#footer1 i{
+    color: #d20fe7;
+}
+
+#footer1 ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+#footer1 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#footer1 ul li a:hover i{
+    color: #ec1ab7;
+}
+
+#footer1 .social_icons{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: white !important;
+    width: 50px;
+    height: 50px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+#footer1 .icon_fbk{
+    background: #3517db;
+}
+
+#footer1 .icon_telegram{
+    background: #ec1ab7;
+}
+
+#footer1 .social_icons .bi{
+    font-size: 24px;
+    color: white;
+}
+
+
+#footer1 .social_icons .bi:hover{
+    color: #dee2e6 !important;
+}
+
+
+#footer2{
+    padding: 2rem;
+    background: black;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .img2{
+        display: block;
+        position: relative;
+        top: -100px;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        z-index: -2;
+        right: 0;
+    }
+    .img1{
+        display:block;
+        z-index: -5;
+        position: absolute;
+        right: 0rem;
+        top: -1px;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .hero-writeup{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        min-height: 100vh;
+        color: white;
+        font-weight: 800 !important;
+
+    }
+
+    .writeup{
+        background: purple;
+        color: white;
+        padding: 3rem;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top:-17rem;
+    }
+
+    #props, #testimony, #contact{
+        padding: 4.5rem 0;
+        margin:0 0;
+    }
+
+    /* css screen css */
+    #about{
+        transform: 0;
+         position: relative; 
+         background: #fff;
+    }
+
+    .about-us{
+        padding: 3rem;
+        font-size: 1rem;
+        background: #a60ccc;
+        border-radius: 0;
+        margin: 0 !important;
+        z-index: 1;
+        /* position: relative; */
+    }
+}
