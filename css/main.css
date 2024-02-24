@@ -6,6 +6,10 @@
 
 html, body{
     overflow-x: hidden;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 a{
@@ -13,27 +17,33 @@ a{
     color: inherit;
 }
 
-.navbar-expand-lg{
-    background: #dee2e6;
+.navbar-expand-xl{
+    /* background: #dee2e6; */
+    text-transform: capitalize;
+    
 }
 
-.navbar-expand-lg .nav-item{
-    padding: 10px 20px;
+.navbar-expand-xl .nav-item{
+    padding-right: 25px !important;
 }
 
-.navbar-expand-lg .nav-item .nav-link{
-    color: black;
+.navbar-expand-xl .nav-item .nav-link{
+    color: rgb(124, 121, 121);
+    font-weight: bold;
+    font-size: 14px;
 }
 
-.navbar-expand-lg .nav-item .btn{
+.navbar-expand-xl .nav-item .btn{
     color: white;
+    padding: 10px 20px;
+    font-size: 14px;
 }
 
-.navbar-expand-lg .nav-item .btn:hover{
+.navbar-expand-xl .nav-item .btn:hover{
     color: whitesmoke !important;
 }
 
-.navbar-expand-lg .nav-item .nav-link:hover{
+.navbar-expand-xl .nav-item .nav-link:hover{
     color:blueviolet;
 }
 
