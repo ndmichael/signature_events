@@ -84,8 +84,8 @@ img{
     display: block;
     position: relative;
     top: 150px;
-    width: 450px;
-    height: 450px;
+    width:90%;
+    height: 90%;
     border-radius: 50%;
 }
 .img2{
@@ -99,43 +99,42 @@ img{
     border-radius: 50%;
 }
 
+#hero-page{
+    min-height: 100vh;
+}
+
 .hero-writeup{
     color: #000;
     font-weight: 800 !important;
     margin-top: 7rem;
+    
 }
 
 .writeup{
     background: #6E2F75;
     color: white;
+    height: 450px;
+    width:450px;
+    border-radius: 100%;
     padding: 6rem;
-    /* border-radius: 50%; */
-    /* height: 500px;
-    width: 500px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top:-3rem;
+    shape-outside: circle(50%);
+
 }
 
-#props, #testimony, #contact{
+#props, #testimony, #contact, #category{
     padding: 6rem 0;
-    margin:3rem 0;
-}
-
-#category{
-    padding: 6rem 0;
-    margin: 0;
 }
 
 #about{
-     transform: translateY(-140px);
+     /* transform: translateY(-140px); */
      position: relative; 
      z-index: 4;
      background: #fff;
-     margin-bottom: -140px;
+     /* margin-bottom: -140px; */
      padding: 6rem 0;
 }
 
@@ -164,21 +163,6 @@ img{
 .cate-props{
     height: 200px;
     width: 100%;
-}
-
-#achievements{
-    padding: 12rem 20px;
-    background: linear-gradient(120deg, rgba(08, 08, 08, 0.4), rgb(08, 08, 08)), url('../images/london-backdrop.png');
-    background-position: center;
-    background-repeat: false;
-    color: white;
-}
-
-#achievements .display-4{
-    /* color: #6E2F75; */
-    color: white;
-    text-shadow: 5px 0 0px #6E2F75;
-    font-weight: 700;
 }
 
 #props .props{
