@@ -263,62 +263,45 @@ img{
 
 
 @media only screen and (max-width: 768px) {
-
-    #hero-page{
-        display: relative;
-        min-height: 100vh;
-        padding-top: 4rem;
-    }
-
     .img2{
-        display: block;
+        display: none;
         position: relative;
-        top: -180px;
-        width: 450px;
-        height: 450px;
+        top: 0;
+        width:90%;
+        height: 90%;
         border-radius: 50%;
-        z-index: -2;
-        right: 0;
     }
     .img1{
-        display:block;
-        z-index: -5;
+        display: block;
+        z-index: -10;
         position: absolute;
-        right: 0rem;
-        top: 4rem;
-        height: 450px;
+        right: 0;
+        top: 50px;
+        height: 400px;
         width: 100%;
-        border-radius: 50%;
+        border-radius: 0;
     }
 
     .hero-writeup{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        min-height: 100vh;
-        color: white;
+        color: #fff;
+        text-shadow: 5px 0 7px rgb(54, 54, 79);
         font-weight: 800 !important;
-        margin-top: 0;
-
+        margin-top: 7rem;   
+        text-align: center; 
     }
 
     .writeup{
         background: #6E2F75;
         color: white;
-        padding: 1rem;
+        height: auto;
+        width:100%;
         border-radius: 0;
-        height: 100%;
-        width: 100%;
-        display: block;
+        padding: 2rem;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        top:-17rem;
+        text-align: center;
     }
 
     #props, #testimony, #contact{
@@ -326,9 +309,13 @@ img{
         margin:0 0;
     }
 
+    #hero-page{
+        margin:0 0;
+        padding: 4.5rem 0;
+    }
+
     /* css screen css */
     #about{
-        transform: 0;
          position: relative; 
          background: #fff;
     }
