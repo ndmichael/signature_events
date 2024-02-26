@@ -42,12 +42,16 @@ a{
     font-size: 14px;
 }
 
+.navbar-expand-xl .nav-item .nav-link .active{
+    color:#b06db9 !important;
+}
+
 .navbar-expand-xl .nav-item .btn:hover{
     color: whitesmoke !important;
 }
 
 .navbar-expand-xl .nav-item .nav-link:hover{
-    color:blueviolet;
+    color:#b06db9;
 }
 
 .btn-primary{
