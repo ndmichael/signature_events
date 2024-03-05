@@ -12,6 +12,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <link rel="icon" type="image/x-icon" href="./images/signatureco-logo.jpg">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -23,7 +25,7 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-xl fixed-top">
+    <nav id="nav" class="navbar navbar-expand-xl fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="./images/signatureco-logo.jpg" alt="logo" class="img-fluid d-inline-block" style="height: 40px; width: 100%;">
@@ -467,7 +469,7 @@
                 To book the perfect experience get in touch with our team,
                 at info@signatureco.co.uk or follow us on social media.
               </p>
-              <div>
+              <div class="text-center">
                 <a href="https://web.facebook.com/teamsignatureco/" target="_blank" class="me-3 social_icons icon_fbk">
                   <i class="bi bi-facebook"></i>
                 </a>
@@ -519,6 +521,15 @@
           duration: 700,
           easing: 'ease-in'
         });
+      </script>
+
+      <script src="./js/jquery.nav.js"></script>
+      <script>
+        $('#nav').onePageNav({
+          currentClass: 'current',
+          changeHash: false,
+          scrollSpeed: 750
+         });
       </script>
 </body>
 </html>
