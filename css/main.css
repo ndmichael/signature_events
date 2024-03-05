@@ -61,6 +61,18 @@ a{
     color: #b06db9 !important;
 }
 
+#nav .contact-btn{
+    color: #b06db9 !important;
+    background: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 40px !important;
+}
+
+#nav .contact-btn:hover{
+    color: #b06db9 !important;
+    background: #dee2e6;
+}
 
 .btn-primary{
     background: #6E2F75;
