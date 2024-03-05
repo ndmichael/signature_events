@@ -57,6 +57,11 @@ a{
     color:#b06db9;
 }
 
+#nav .active  {
+    color: #b06db9 !important;
+}
+
+
 .btn-primary{
     background: #6E2F75;
     color: whitesmoke;
