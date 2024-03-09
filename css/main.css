@@ -222,9 +222,13 @@ img{
     color: #d20fe7;
 }
 
+#footer1 ul{
+    padding-left: .7rem !important;
+}
+
 #footer1 ul li{
     list-style-type: none;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #footer1 ul li a{
@@ -320,7 +324,7 @@ img{
     }
 
     #props, #testimony, #contact{
-        padding: 4.5rem 0;
+        padding: 3.5rem 0;
         margin:0 0;
     }
 
